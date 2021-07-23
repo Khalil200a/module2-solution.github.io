@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.box {
+    width: 700px
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+h4 {
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+p {
+    color: #330431;
+    padding: 50px 17px 10px 17px;
+}
+.backgroud-1 {
+    background-color: #0081ff;
+}
+.backgroud-2 {
+    background-color: #00ff4b;
+}
+.backgroud-3 {
+    background-color: #ff0062;
+    color: #ffffff;
+}
+.p-section {
+    height: 250px;
+    background-color: #999999;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/**************** Desktop *******************/
+@media (min-width: 992px) {
+    .p-section{
+        width: 30%;
+    }
+    .row{
+        position: relative;
+    }
+    #A1{
+        position: absolute;
+        top: 0%;
+        left: 1%;
+    }
+    #A2{
+        position: absolute;
+        top: 0%;
+        left: 35%;
+    }
+    #A3{
+        position: absolute;
+        top: 0%;
+        left: 69%;
+    }
+}
+/***************** Tablet *******************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .p-section{
+        width: 48%;
+    }
+    .row{
+        position: relative;
+    }
+    #A1{
+        position: absolute;
+        top: 0%;
+        left: 1%;
+    }
+    #A2{
+        position: absolute;
+        top: 260px;
+        left: 1%;
+        width: 99%;
+        height: 150px;
+    }
+    #A3{
+        position: absolute;
+        top: 0%;
+        left: 51%;
+    }
+}
